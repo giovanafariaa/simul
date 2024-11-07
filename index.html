@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ativ1.css">
+    
+</head>
+<body>
+
+    <nav>
+        <div id="nav1">
+<h1>Formulario</h1>
+
+    <div></div>
+<label for="name">NOME
+<input type="text" placeholder="Digite o seu nome" id="nome" oninput=nome()> </label>
+</div>
+
+<div>
+<label for="end">ENDEREÇO 
+<input type="text" placeholder="Digite aqui" id="endereco" oninput=endereco()>
+</label>
+</div>
+
+<div>
+<label>CEP</label>
+<input type="text" id="cep" placeholder="xxxxx-xxx" oninput=mascara_cep() maxlength="9">
+</div>
+    
+    
+<div>
+<label for="CPF">CPF</label>
+<input type="text" placeholder="xxx.xxx.xxx-xx" id="cpf" oninput=mascara_cpf() maxlength="14"></div>
+</div>
+            
+
+<div>
+<label>TELEFONE</label>
+<input type="tel" placeholder="(xx) x xxxx-xxxx" id="telefone"  oninput=mascara_telefone() maxlength="14">
+</div>
+
+
+<div>
+<label>CNPJ</label>
+<input type="text" placeholder="XX.XXX.XXX/0001-XX" id="cnpj"  oninput=mascara_cnpj() maxlength="18">
+</div>
+
+
+
+<div>
+<label>CODIGO</label>
+<input type="text" placeholder="xx_xx//xxx-xxx.9.xxx" id="cod"  oninput=mascara_cod() maxlength="20">
+</div>
+
+<button type="button" onclick="enviarb()">ENVIAR</button>
+</div>
+
+
+</nav>
+
+<script src="java.js"></script>
+</body>
+</html>

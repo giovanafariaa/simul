@@ -1,0 +1,49 @@
+*{
+    margin: 15px;
+}
+
+nav {
+    background-color: rgb(170, 147, 192);
+    width: 50vh;
+    align-items: center;
+}
+
+
+input {border: 0px;
+    border-bottom: solid 1px }
+    input:focus { border: solid 1px rgb(0, 0, 0);
+    outline: none
+    }
+    
+    input:hover { border: solid 1px red}
+
+    #nome{
+        background-color: white;
+    }
+
+    #endereco{
+        background-color: white;
+    }
+
+    #telefone{
+        background-color: white;
+    }
+
+    #cpf{
+        background-color: white;
+    }
+
+    #cep{
+        background-color: white;
+    }
+
+    nav1{
+    align-items: center;
+    margin: 10vh;
+    }
+    
+    .button {
+        padding: 10px 30px;
+        background-color: blueviolet;
+        border: none;
+        text-align: center;}
